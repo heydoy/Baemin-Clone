@@ -9,11 +9,23 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet var buttonCollection: [UIButton]!
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
-    }
+        buttonDesign(for: buttonCollection)
+     }
 
+    func buttonDesign(for buttons: [UIButton]) {
+        
+        buttons.forEach {
+            $0.setTitle("", for: .normal)
+            $0.setTitle("탭", for: .highlighted)
+ 
+        }
+        
+    }
 
 }
 
