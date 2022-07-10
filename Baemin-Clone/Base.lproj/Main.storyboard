@@ -1150,6 +1150,7 @@
                         <outlet property="firstItem" destination="cof-8b-2ij" id="UMi-Zo-7Ym"/>
                         <outlet property="fourthItem" destination="LP5-hp-YLL" id="ThC-iN-3Pc"/>
                         <outlet property="headerItem" destination="hR6-q8-vqS" id="Z4m-5d-pUU"/>
+                        <outlet property="indicatorButton" destination="iXM-vD-AhE" id="lYn-q1-Wdf"/>
                         <outlet property="secondHeaderButton" destination="PZ8-In-YoY" id="E1I-7A-OLK"/>
                         <outlet property="secondItem" destination="lPU-N3-rVK" id="zBI-Ov-qGr"/>
                         <outlet property="seventhItem" destination="XVq-bD-GxY" id="kJS-dn-1jr"/>

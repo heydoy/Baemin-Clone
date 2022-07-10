@@ -25,6 +25,9 @@ class NewBaeminHomeViewController: UIViewController {
     @IBOutlet weak var secondHeaderButton: UIButton!
     @IBOutlet weak var thirdHeaderButton: UIButton!
     
+    @IBOutlet weak var indicatorButton: UIButton!
+    
+    
     
     var headerButton: [UIButton] {
         [firstHeaderButton, secondHeaderButton, thirdHeaderButton]
@@ -43,6 +46,10 @@ class NewBaeminHomeViewController: UIViewController {
         
         designViewItem()
         setButtonAttribute()
+        
+        indicatorButton.backgroundColor = UIColor(red: 0, green: 0, blue: 0, alpha: 0.3)
+        indicatorButton.layer.cornerRadius = 12
+        
     }
     
     // MARK: - Actions
