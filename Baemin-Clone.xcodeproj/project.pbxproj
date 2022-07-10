@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A2EF180B287A7D3A002C7D5E /* NewBaeminHomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2EF180A287A7D3A002C7D5E /* NewBaeminHomeViewController.swift */; };
 		A2FF7D5028733F22009CBAAA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2FF7D4F28733F22009CBAAA /* AppDelegate.swift */; };
 		A2FF7D5228733F22009CBAAA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2FF7D5128733F22009CBAAA /* SceneDelegate.swift */; };
 		A2FF7D5428733F22009CBAAA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2FF7D5328733F22009CBAAA /* ViewController.swift */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A2EF180A287A7D3A002C7D5E /* NewBaeminHomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewBaeminHomeViewController.swift; sourceTree = "<group>"; };
 		A2FF7D4C28733F22009CBAAA /* 02-SesacAssignment-Baemin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "02-SesacAssignment-Baemin.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A2FF7D4F28733F22009CBAAA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A2FF7D5128733F22009CBAAA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -60,6 +62,7 @@
 				A2FF7D5128733F22009CBAAA /* SceneDelegate.swift */,
 				A2FF7D5328733F22009CBAAA /* ViewController.swift */,
 				A2FF7D5528733F22009CBAAA /* Main.storyboard */,
+				A2EF180A287A7D3A002C7D5E /* NewBaeminHomeViewController.swift */,
 				A2FF7D5828733F24009CBAAA /* Assets.xcassets */,
 				A2FF7D5A28733F24009CBAAA /* LaunchScreen.storyboard */,
 				A2FF7D5D28733F24009CBAAA /* Info.plist */,
@@ -140,6 +143,7 @@
 			files = (
 				A2FF7D5428733F22009CBAAA /* ViewController.swift in Sources */,
 				A2FF7D5028733F22009CBAAA /* AppDelegate.swift in Sources */,
+				A2EF180B287A7D3A002C7D5E /* NewBaeminHomeViewController.swift in Sources */,
 				A2FF7D5228733F22009CBAAA /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
