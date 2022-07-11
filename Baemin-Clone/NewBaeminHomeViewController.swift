@@ -50,6 +50,35 @@ class NewBaeminHomeViewController: UIViewController {
         indicatorButton.backgroundColor = UIColor(red: 0, green: 0, blue: 0, alpha: 0.3)
         indicatorButton.layer.cornerRadius = 12
         
+        print("viewdidload")
+        
+    }
+    
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(animated)
+        
+        print("viewwillappear")
+        
+    }
+    
+    override func viewDidAppear(_ animated: Bool) {
+        super.viewDidAppear(animated)
+        
+        print("viewdidappear")
+        
+    }
+    
+    override func viewWillDisappear(_ animated: Bool) {
+        super.viewWillDisappear(animated)
+        
+        print("viewwilldisappear")
+        
+    }
+    override func viewDidDisappear(_ animated: Bool) {
+        super.viewDidDisappear(animated)
+        
+        print("viewdiddisappear")
+        
     }
     
     // MARK: - Actions
